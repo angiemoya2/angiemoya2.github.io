@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angie Moya — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">AM</div>
+    <ul class="nav__links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__bg-text" aria-hidden="true">ANGIE</div>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal">Psychology & Business</p>
+      <h1 class="hero__name reveal">Angie<br /><em>Moya</em></h1>
+      <p class="hero__sub reveal">
+        Newark, NJ · Bilingual (EN/ES) · Rutgers University '26
+      </p>
+      <div class="hero__cta reveal">
+        <a href="#contact" class="btn btn--primary">Get in touch</a>
+        <a href="#experience" class="btn btn--ghost">View experience</a>
+      </div>
+    </div>
+    <div class="hero__stat-strip reveal">
+      <div class="stat"><span class="stat__num">3.8</span><span class="stat__label">GPA</span></div>
+      <div class="stat__divider"></div>
+      <div class="stat"><span class="stat__num">3+</span><span class="stat__label">Years Experience</span></div>
+      <div class="stat__divider"></div>
+      <div class="stat"><span class="stat__num">2</span><span class="stat__label">Languages</span></div>
+      <div class="stat__divider"></div>
+      <div class="stat"><span class="stat__num">Dean's</span><span class="stat__label">List Fall '25</span></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="section__label">01 — About</div>
+    <div class="about__grid">
+      <div class="about__portrait">
+        <div class="portrait-frame">
+          <div class="portrait-initials">AM</div>
+        </div>
+        <div class="about__tags">
+          <span class="tag">Psychology</span>
+          <span class="tag">Business Admin</span>
+          <span class="tag">Bilingual</span>
+          <span class="tag">Detail-Oriented</span>
+        </div>
+      </div>
+      <div class="about__text">
+        <h2 class="section__title reveal">Driven by curiosity,<br /><em>grounded in results.</em></h2>
+        <p class="about__body reveal">
+          I'm a senior at Rutgers University–Newark pursuing a B.A. in Psychology with a Minor in Business Administration. My academic background bridges human behavior and organizational thinking — a combination that makes me exceptionally effective in roles that demand both empathy and analytical precision.
+        </p>
+        <p class="about__body reveal">
+          From processing invoices at the Newark Housing Authority to helping customers at Carter's, I bring the same commitment to every role: show up prepared, communicate clearly, and leave things better than I found them. I'm fluent in English and Spanish, a natural collaborator, and always eager to learn new systems quickly.
+        </p>
+        <div class="about__edu reveal">
+          <div class="edu-card">
+            <span class="edu-card__school">Rutgers University</span>
+            <span class="edu-card__degree">B.A. Psychology · Minor in Business Administration</span>
+            <span class="edu-card__detail">Newark, NJ · Expected May 2026 · GPA 3.8</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience section" id="experience">
+    <div class="section__label">02 — Experience</div>
+    <h2 class="section__title reveal">Where I've<br /><em>made an impact.</em></h2>
+    <div class="timeline">
+
+      <div class="timeline__item reveal">
+        <div class="timeline__marker"></div>
+        <div class="timeline__meta">
+          <span class="timeline__date">Aug 2025 — Present</span>
+          <span class="timeline__location">Kearny, NJ</span>
+        </div>
+        <div class="timeline__card">
+          <div class="timeline__header">
+            <h3 class="timeline__role">Sales Associate</h3>
+            <span class="timeline__company">Carter's</span>
+          </div>
+          <ul class="timeline__bullets">
+            <li>Enhanced customer experience through personalized product recommendations and efficient, accurate transactions.</li>
+            <li>Promoted sales campaigns and loyalty programs, strengthening persuasive communication skills.</li>
+            <li>Collaborated on visual merchandising to uphold brand standards across the store floor.</li>
+          </ul>
+          <div class="timeline__tags">
+            <span class="tag tag--sm">Customer Service</span>
+            <span class="tag tag--sm">Sales</span>
+            <span class="tag tag--sm">Visual Merchandising</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline__item reveal">
+        <div class="timeline__marker"></div>
+        <div class="timeline__meta">
+          <span class="timeline__date">Dec 2024 — Mar 2025</span>
+          <span class="timeline__location">Newark, NJ</span>
+        </div>
+        <div class="timeline__card">
+          <div class="timeline__header">
+            <h3 class="timeline__role">In-Store Shopper</h3>
+            <span class="timeline__company">Whole Foods Market</span>
+          </div>
+          <ul class="timeline__bullets">
+            <li>Fulfilled online orders for delivery and pickup with high accuracy while upholding food safety standards.</li>
+            <li>Selected smart substitutions for unavailable items to maintain order integrity and customer satisfaction.</li>
+            <li>Assisted customers in locating products through clear, direct communication on the floor.</li>
+          </ul>
+          <div class="timeline__tags">
+            <span class="tag tag--sm">Order Fulfillment</span>
+            <span class="tag tag--sm">Food Safety</span>
+            <span class="tag tag--sm">Problem Solving</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline__item reveal">
+        <div class="timeline__marker"></div>
+        <div class="timeline__meta">
+          <span class="timeline__date">Jun 2023 — Aug 2023</span>
+          <span class="timeline__location">Newark, NJ</span>
+        </div>
+        <div class="timeline__card">
+          <div class="timeline__header">
+            <h3 class="timeline__role">Finance Office Intern</h3>
+            <span class="timeline__company">Newark Housing Authority</span>
+          </div>
+          <ul class="timeline__bullets">
+            <li>Assisted Accounts Payable with invoice processing — verifying data and entering it into accounting software.</li>
+            <li>Organized and maintained document records, improving workflow and reducing processing delays.</li>
+            <li>Collaborated with the accounting team to resolve discrepancies and meet task deadlines.</li>
+          </ul>
+          <div class="timeline__tags">
+            <span class="tag tag--sm">Accounts Payable</span>
+            <span class="tag tag--sm">Data Entry</span>
+            <span class="tag tag--sm">Process Improvement</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="section__label">03 — Skills</div>
+    <h2 class="section__title reveal">What I bring<br /><em>to the table.</em></h2>
+    <div class="skills__grid">
+
+      <div class="skills__group reveal">
+        <div class="skills__group-icon">⚙️</div>
+        <h3 class="skills__group-title">Technical</h3>
+        <ul class="skills__list">
+          <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+          <li>Google Workspace (Docs, Sheets, Slides)</li>
+          <li>Data Entry & Basic Data Analysis</li>
+          <li>Digital File Management</li>
+          <li>POS Systems</li>
+          <li>Online Order Fulfillment Systems</li>
+        </ul>
+      </div>
+
+      <div class="skills__group reveal">
+        <div class="skills__group-icon">🤝</div>
+        <h3 class="skills__group-title">Professional</h3>
+        <ul class="skills__list">
+          <li>Cross-Functional Collaboration</li>
+          <li>Process Improvement</li>
+          <li>Customer Service</li>
+          <li>Time Management</li>
+          <li>Problem Solving</li>
+          <li>Email & Phone Communication</li>
+          <li>Basic Accounting Support</li>
+          <li>Attention to Detail</li>
+        </ul>
+      </div>
+
+      <div class="skills__group reveal">
+        <div class="skills__group-icon">🎓</div>
+        <h3 class="skills__group-title">Academic</h3>
+        <ul class="skills__list">
+          <li>Psychology Research Methods</li>
+          <li>Managerial & Financial Accounting</li>
+          <li>Marketing Principles</li>
+          <li>Social & Developmental Psychology</li>
+          <li>Microeconomics</li>
+          <li>Community Psychology</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="skills__languages reveal">
+      <div class="lang-card">
+        <span class="lang-card__flag">🇺🇸</span>
+        <span class="lang-card__name">English</span>
+        <span class="lang-card__level">Native</span>
+      </div>
+      <div class="lang-card">
+        <span class="lang-card__flag">🇪🇸</span>
+        <span class="lang-card__name">Spanish</span>
+        <span class="lang-card__level">Fluent</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="section__label">04 — Contact</div>
+    <div class="contact__inner">
+      <h2 class="section__title reveal">Let's connect<br /><em>and collaborate.</em></h2>
+      <p class="contact__sub reveal">
+        I'm actively looking for internships and entry-level opportunities in psychology, business, or administrative roles. Feel free to reach out!
+      </p>
+      <div class="contact__links reveal">
+        <a href="mailto:angiemoya0702@gmail.com" class="contact__link">
+          <span class="contact__link-icon">✉</span>
+          <span>angiemoya0702@gmail.com</span>
+        </a>
+        <a href="tel:9737158571" class="contact__link">
+          <span class="contact__link-icon">☎</span>
+          <span>(973) 715-8571</span>
+        </a>
+        <div class="contact__link contact__link--loc">
+          <span class="contact__link-icon">📍</span>
+          <span>Newark, NJ</span>
+        </div>
+      </div>
+      <a href="mailto:angiemoya0702@gmail.com" class="btn btn--primary btn--lg reveal">Send me an email →</a>
+    </div>
+    <div class="contact__deco" aria-hidden="true">GET<br/>IN<br/>TOUCH</div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span>© 2026 Angie Moya</span>
+    <span>Newark, NJ · Rutgers University</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
